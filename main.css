@@ -209,3 +209,15 @@ p{
     flex-direction: column;
 
 }
+@media(height>1080px){
+    .body{
+        flex-direction : column;
+    }
+
+
+     .container{
+         grid-template-column : 1fr 1fr;
+     }
+
+    
+}
